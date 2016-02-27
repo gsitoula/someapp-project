@@ -1,16 +1,30 @@
-.cont {
-	position: relative;
-}
-
-.jumbotron {
-	position: relative;
-}
 
 .img-circle {
 	width: 100px;
 	height: 100px;
+	float: left;
 }
 
-.list {
-	
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
+
+li {
+	padding: 10px;
+	list-style: none;
+}
+
+.nav-container {
+    
+	float: right;
+	margin-right: 50px;
+	flex: 1;
+
+}
+
+.nav {
+	position: fixed;
+}
+
